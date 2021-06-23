@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES6",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
+
